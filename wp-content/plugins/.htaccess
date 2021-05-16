@@ -1,0 +1,12 @@
+
+
+# php -- BEGIN cPanel-generated handler, do not edit
+# Définissez le package « ea-php56 » comme langage de programmation « PHP » par défaut.
+<IfModule mime_module>
+  AddType application/x-httpd-ea-php56 .php .php5 .phtml
+</IfModule>
+# php -- END cPanel-generated handler, do not edit
+
+# BEGIN WordPress
+
+# END WordPress

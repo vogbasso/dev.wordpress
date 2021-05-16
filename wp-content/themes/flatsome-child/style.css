@@ -1,0 +1,47 @@
+/*
+Theme Name: Flatsome Child
+Description: This is a child theme for Flatsome Theme
+Author: UX Themes
+Template: flatsome
+Version: 3.0
+*/
+
+/*************** ADD CUSTOM CSS HERE.   ***************/
+/*** Pour affichage de rupture de stock sur l'image sur la single page***/
+.soldout {
+	background: red;
+	color: #fff;
+	font-size: 14px;
+	font-weight: 700;
+	padding: 6px 12px;
+	position: absolute;
+	right: 50%;
+	top: 0;
+	z-index: 1;
+}
+.soldin{
+	background: green;
+	color: #fff;
+	font-size: 14px;
+	font-weight: 700;
+	padding: 6px 12px;
+	position: absolute;
+	right: 50%;
+	top: 0;
+	z-index: 1;
+}
+
+@media only screen and (max-width: 48em) {
+/*************** ADD MOBILE ONLY CSS HERE  ***************/
+.soldin{
+	background: green;
+	color: #fff;
+	font-size: 14px;
+	font-weight: 700;
+	padding: 6px 12px;
+	position: absolute;
+	right: 50%;
+	top: 0;
+	z-index: 1;
+}
+}
